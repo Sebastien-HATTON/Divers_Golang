@@ -1,4 +1,4 @@
-## Le code est assez simple, mais il y a plusieurs aspects, dont la sécurité, qui pourraient être améliorés :
+### Le code est assez simple, mais il y a plusieurs aspects, dont la sécurité, qui pourraient être améliorés :
 
 ### Gestion des erreurs
 
