@@ -1,16 +1,16 @@
-### Web to local font
+# Web to local font
 
-# Avec chemin de destination:
+## Avec chemin de destination:
 
 go run main.go -u "https://fonts.googleapis.com/css2?family=Roboto&display=swap" -f "./font"
 
 ou
 
-# Sans chemin de destination:
+## Sans chemin de destination:
 
 go run main.go -u "https://fonts.googleapis.com/css2?family=Roboto&display=swap"
 
-# ce code est conçu pour télécharger plusieurs fichiers de polices (fonts) en parallèle en utilisant des goroutines. Voici comment cela fonctionne :
+## ce code est conçu pour télécharger plusieurs fichiers de polices (fonts) en parallèle en utilisant des goroutines. Voici comment cela fonctionne :
 
 1. Après avoir extrait toutes les URLs des fichiers de polices du CSS, il crée une goroutine pour chaque URL pour télécharger le fichier correspondant.
 
