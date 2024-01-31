@@ -1,11 +1,11 @@
-### Hot Reload In Go With Air
+### Hot Reload In Go With Air :
 
-1. **Installation**
-   go install github.com/cosmtrek/air@latest
+**Installation:**
+go install github.com/cosmtrek/air@latest
 
-2. **Setup**
-   air init
-   air -v
+**Setup:**
+air init
+air -v
 
-3. **Running**
-   air
+**Running:**
+air
