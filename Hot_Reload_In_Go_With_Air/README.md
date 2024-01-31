@@ -7,6 +7,7 @@ go install github.com/cosmtrek/air@latest
 **Setup:**
 
 air init
+
 air -v
 
 **Running:**
