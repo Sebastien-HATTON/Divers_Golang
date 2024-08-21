@@ -1,16 +1,15 @@
-### Web to local font :
 
-### Avec chemin de destination:
+## Web to local font - ce code est conçu pour télécharger plusieurs fichiers de polices (fonts) en parallèle en utilisant des goroutines. 
+
+### Utilisation avec chemin de destination:
 
 go run main.go -u "https://fonts.googleapis.com/css2?family=Roboto&display=swap" -f "./font"
 
 ou
 
-### Sans chemin de destination:
+### Utilisation sans chemin de destination:
 
 go run main.go -u "https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-
-### ce code est conçu pour télécharger plusieurs fichiers de polices (fonts) en parallèle en utilisant des goroutines. Voici comment cela fonctionne :
 
 1. Après avoir extrait toutes les URLs des fichiers de polices du CSS, il crée une goroutine pour chaque URL pour télécharger le fichier correspondant.
 
@@ -18,7 +17,9 @@ go run main.go -u "https://fonts.googleapis.com/css2?family=Roboto&display=swap"
 
 3. Un `WaitGroup` est utilisé pour attendre que toutes les goroutines soient terminées avant de fermer le canal qui est utilisé pour envoyer des messages d'erreur depuis les goroutines.
 
-Voici un exemple de fonctionnement :
+---
+
+### Voici un exemple de fonctionnement:
 
 Supposons que votre fichier CSS contienne les URLs de trois fichiers de polices :
 
