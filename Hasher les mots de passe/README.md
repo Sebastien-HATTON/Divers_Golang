@@ -1,4 +1,6 @@
+## Notes
 Pour hasher les mots de passe en utilisant bcrypt, on peut utiliser la fonction `bcrypt.GenerateFromPassword`.
+
 Ci-dessous, un exemple de la façon dont on peut le faire pour obtenir des mots de passe hashés à partir de mots de passe en clair, puis les afficher.
 
 ```go
