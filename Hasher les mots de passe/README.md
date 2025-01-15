@@ -80,7 +80,7 @@ Hash []byte pour password1: [36 50 97 36 49 48 36 102 46 112 99 111 102 107 101 
 
 Hash []byte pour password2: [36 50 97 36 49 48 36 74 108 100 120 56 84 117 103 88 83 98 110 101 73 117 85 108 66 76 83 51 101 53 115 116 72 89 81 66 87 119 86 119 79 89 85 101 49 122 80 101 112 89 107 116 84 75 55 109 104 116 113 101]
 
-# ############### Base de donnée qui gére très bien les bytes bruts:
+## Base de donnée qui gére très bien les bytes bruts
 
 Les bases de données modernes sont généralement assez flexibles pour gérer différents types de données, y compris les bytes bruts. Voici une liste de systèmes de gestion de base de données (SGBD) qui peuvent stocker efficacement des données binaires, comme les bytes bruts :
 
