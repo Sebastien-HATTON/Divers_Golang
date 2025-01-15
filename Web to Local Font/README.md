@@ -1,11 +1,11 @@
 
-# Permet de télécharger des fichiers de polices en parallèle en utilisant des goroutines.
+## Permet de télécharger des fichiers de polices en parallèle en utilisant des goroutines.
 
-## Utilisation avec chemin de destination:
+### Utilisation avec chemin de destination:
 
 go run main.go -u "https://fonts.googleapis.com/css2?family=Roboto&display=swap" -f "./font"
 
-## Utilisation sans chemin de destination:
+### Utilisation sans chemin de destination:
 
 go run main.go -u "https://fonts.googleapis.com/css2?family=Roboto&display=swap"
 
@@ -16,7 +16,7 @@ go run main.go -u "https://fonts.googleapis.com/css2?family=Roboto&display=swap"
 3. Un `WaitGroup` est utilisé pour attendre que toutes les goroutines soient terminées avant de fermer le canal qui est utilisé pour envoyer des messages d'erreur depuis les goroutines.
 
 
-## Voici un exemple de fonctionnement:
+### Voici un exemple de fonctionnement:
 
 Supposons que votre fichier CSS contienne les URLs de trois fichiers de polices :
 
